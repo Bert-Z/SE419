@@ -88,9 +88,58 @@ TCP包的交互基本都存在
 
 
 
-**Advanced Network Techs**
+##### Advanced Network Techs
 
 - InfiniBand
 - RDMA
 - Spot Instance
+
+
+
+##### CQRS(读写分离)
+
+REST Api和数据库
+
+数据库一般是做4th Layer
+
+REST Api 做隔离用的是七层代理
+
+
+
+浏览器查看某个网站的DNS之前，会先在本机查看hosts的表
+
+
+
+
+
+www.sjtu.edu.cn->hosts->DNS->....
+
+
+
+HBA存储网络
+
+
+
+
+
+##### Distribute Storage
+
+Solutions:
+
+- GFS	SOSP  2003
+- Ceph	OSDI  2006
+
+
+
+hdfs
+
+
+
+k8s
+
+自动伸缩算法，冷却值
+
+
+
+zookeeper，etcd
 
