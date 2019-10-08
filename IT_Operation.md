@@ -143,3 +143,65 @@ k8s
 
 zookeeper，etcd
 
+
+
+
+
+
+
+## 资源管理
+
+CPU	Memory	Storage	Network	...
+
+
+
+#### Isolation Technologies：
+
+- Virtual Machine (一般是整数的cpu)
+- Container (更好的隔离度，可以0.5个cpu) （cgroup + namespace）
+
+#### Orientation
+
+- Resources (Hardware)
+- Application (Software)
+
+
+
+#### K8s可做基于容器的，也可做基于虚拟机的 (资源管理的理念)
+
+
+
+#### Workload
+
+- Long-running Services
+- Batch Jobs
+
+
+
+#### K8s 原型	——	Borg	Omega
+
+
+
+#### K8s
+
+
+
+#### Centralized VS Decentralized（Distributed，Hierarchy）
+
+Centralized	--	long-running services
+
+Decentralized	--	high utilization
+
+
+
+自己搭镜像库
+
+image slim
+
+
+
+HA VS Utilization
+
+
+
+监控各个资源使用情况
