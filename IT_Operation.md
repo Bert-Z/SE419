@@ -205,3 +205,74 @@ HA VS Utilization
 
 
 监控各个资源使用情况
+
+
+
+
+
+## Kubernetes
+
+Pod相当于一个更大的Container
+
+
+
+Kubernetes.io
+
+snap (install microk8s)
+
+
+
+Etcd 
+
+kube-scheduler
+
+
+
+​				HBA       
+
+计算资源——>Storage
+
+高可用性（HA），做隔离
+
+
+
+rkt,pouch(ali container),lxc(linux container)
+
+
+
+#### Addons
+
+- DNS
+- Web UI (Dashboard)
+- Container Resource Monitoring
+- Cluster-level Logging
+
+
+
+#### Oversubscription & Overestimation
+
+
+
+#### Pod
+
+
+
+#### Pouch
+
+- strong isolation
+- p2p image distribution
+- rich container
+- kernel compatibility
+
+
+
+sidecar (k8s的监控采集等的功能)
+
+
+
+katacontainer(更安全的docker)
+
+
+
+volume  namespace 
+
